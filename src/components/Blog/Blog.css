@@ -1,6 +1,7 @@
 .blog-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 2fr;
+    gap: 30px;
 }
 
 .allblog-container{
@@ -10,3 +11,29 @@
     gap: 45px;
 
 }
+li{
+    list-style: none;
+    font-size: large;
+    line-height: 30px;
+    height: 50px;
+    width:auto;
+    background-color: white;
+    margin: 30px;
+    
+    
+}
+.Bookmarks-container{
+    background-color: hsl(0, 18%, 93%);
+    padding: 25px;
+    position: sticky;
+    top: 0;
+   
+}
+
+@media only screen and (max-width: 800px) {
+    .blog-container {
+      /* your CSS code for mobile devices */
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+    }
+  }

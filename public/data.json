@@ -8,7 +8,7 @@
         "blogCoverImage": "https://c4.wallpaperflare.com/wallpaper/632/34/549/technology-monitor-alpha-coders-binary-wallpaper-preview.jpg",    
         "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD9x9hhbLmF2fCRAFisK5xt9JW3jqDw4O_DA&usqp=CAU",  
            
-        "readTime": "12",    
+        "readTime": 12,    
         "publishDate": "2023-02-14"  
     },  
 
@@ -20,7 +20,7 @@
         "blogTitle": "The Future of Artificial Intelligence",      
         "blogCoverImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80", 
         "authorImage": "https://images.saymedia-content.com/.image/t_share/MTc0NTE0MjI3ODYyOTcyNDA2/top-10-living-writers-of-the-world.jpg"  ,    
-        "readTime": "8",    
+        "readTime": 8,    
         "publishDate": "2023-03-08"  
     },  
 
@@ -32,7 +32,7 @@
         "blogTitle": "5 Easy Steps to a Greener Home",    
         "blogCoverImage": "https://media.istockphoto.com/id/1401980646/photo/3d-rendered-classic-sculpture-metaverse-avatar-with-network-of-low-poly-glowing-purple-lines.jpg?s=2048x2048&w=is&k=20&c=BuMqUMizCQNZhgjfjWg5SReoapADCDH39sWDqF9xUHg=",      
         "authorImage": "https://www.thefamouspeople.com/profiles/thumbs/maya-angelou-1.jpg",
-        "readTime": "6",    
+        "readTime": 6,    
         "publishDate": "2023-01-20"  
     },  
 
@@ -43,7 +43,7 @@
         "blogTitle": "The Importance of Diversity in Tech",    
         "blogCoverImage": "https://media.istockphoto.com/id/1366415101/photo/japanese-woman-helping-her-colleague.jpg?s=2048x2048&w=is&k=20&c=hqyBNE8U-AkwdEQTclIcRxykWkySv9zrGcnthW-4x6E=",      
         "authorImage": "https://famouswritingroutines.com/wp-content/uploads/2022/06/daily-word-counts-of-famous-authors-1140x761.jpg" ,
-        "readTime": "10",    
+        "readTime": 9,    
         "publishDate": "2023-04-01"  
     } 
 ]
