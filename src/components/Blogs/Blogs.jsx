@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './Blogs.css'
 const Blogs = () => {
     return (
-        <div>
+        <div className='blogs'>
       <h2>1.Props vs state</h2>
       <p>Props are used to customize the behavior and appearance of the child component.State is mutable data that is managed by a component itself.</p>
       

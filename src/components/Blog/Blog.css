@@ -2,8 +2,6 @@
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 30px;
-    height:100%;
-    position: relative;
 
 }
 
@@ -28,10 +26,8 @@ li{
 .Bookmarks-container{
     background-color: hsl(0, 18%, 93%);
     padding: 25px;
-    position: sticky;
-    top: 20px;
-    z-index: 1;
-   
+    
+
 }
 
 @media only screen and (max-width: 800px) {
