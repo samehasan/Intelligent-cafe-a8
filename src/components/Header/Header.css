@@ -7,7 +7,14 @@
    padding-left: 100px;
    padding-right: 100px;
 }
+.header img{
+    width: 40px;
+height: 40px;
+left: 320px;
+top: 662px;
+border-radius: 15px;
 
+}
 nav.header a{
     text-decoration: none;
     color: rgb(7, 6, 6);

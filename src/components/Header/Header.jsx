@@ -12,7 +12,7 @@ const Header = () => {
             <a href="blog">Blog</a>
             <a href="login">Login</a> 
             </div>
-           
+            <img src="https://famouswritingroutines.com/wp-content/uploads/2022/06/daily-word-counts-of-famous-authors-1140x761.jpg" alt="" />
         </nav>
         </div>
     );
