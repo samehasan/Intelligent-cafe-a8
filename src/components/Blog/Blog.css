@@ -4,7 +4,14 @@
     gap: 30px;
 
 }
-
+.time{
+    background-color: rgb(206, 220, 222);
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(112, 112, 236);
+    border-radius: 5px;
+}
 .allblog-container{
     margin: 30px;
     display: grid;
