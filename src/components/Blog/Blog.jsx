@@ -4,7 +4,7 @@ import Allblog from '../Allblog/Allblog';
 import './Blog.css'
 const Blog = () => {
     const [allblogs,setallblogs]= useState([]);
-
+    const [bookmarklist,setBookmarklist]=useState([])
     useEffect( ()=>{
         fetch('data.json')
         .then(res=>res.json())
@@ -12,7 +12,8 @@ const Blog = () => {
     },[]);
 
     const Handleaddblog=(allblog)=>{
-        console.log(allblog);
+        const newBookmarklist=[...bookmarklist,allblog]
+        setBookmarklist(newBookmarklist);
     }
     return (
         <div className='blog-container'>
@@ -27,7 +28,7 @@ const Blog = () => {
             </div>
 
             <div className='Bookmarks-container'>
-            <h2>right</h2>
+            <h2>Bookmarked Blogs : {bookmarklist.length}</h2>
             </div>
         </div>
     );
