@@ -10,6 +10,10 @@ const Blog = () => {
         .then(res=>res.json())
         .then(data=>setallblogs(data))
     },[]);
+
+    const Handleaddblog=(allblog)=>{
+        console.log(allblog);
+    }
     return (
         <div className='blog-container'>
             <div className='allblog-container'>
@@ -17,6 +21,7 @@ const Blog = () => {
                 allblogs.map(allblog=><Allblog
                 key={allblog.id}
                 allblog={allblog}
+                Handleaddblog={Handleaddblog}
                 ></Allblog>)
              }
             </div>
