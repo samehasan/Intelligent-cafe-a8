@@ -1,0 +1,32 @@
+.allblog{
+    width: 730px;
+    height: 700px;
+    border: 2px solid rgb(239, 230, 230);
+    border-radius: 5px;
+    text-align: center;
+    /* position: relative; */
+}
+.allblog img{
+    height: 400px;
+    width: 700px;
+    margin: 7px;
+    border-radius: 8px;
+}
+.info img{
+    width: 60px;
+height: 60px;
+left: 320px;
+top: 662px;
+}
+.btn-cart{
+    width: 100%;
+    background-color: rgb(255, 202, 183);
+    border: 0px 0px 8px 8px;
+    padding: 0 0 20px 20px;
+    bottom: 0;
+    /* position: absolute; */
+   
+}
+.btn-cart:hover{
+    background-color: orchid;
+}
